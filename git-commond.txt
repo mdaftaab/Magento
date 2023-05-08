@@ -1,0 +1,67 @@
+git --version
+mkdir myproject
+cd myproject
+
+git config --global user.name "[mdaftaab]"
+git config --global user.email "[md.yash99@gmail.com]"
+
+git init 
+git status
+git add index.html
+git add --all  /git add -A  /git add .
+git commit -m "First release of Hello World!"
+git branch -M main
+git remote add origin https://github.com/mdaftaab/tailwind-react.git
+git push -u origin main
+git status --short
+
+Note: Short status flags are:
+
+?? - Untracked files
+A - Files added to stage
+M - Modified files
+D - Deleted files
+
+git commit -a -m "Updated index.html with a new line"
+git log
+
+git command -help
+git help --all
+git commit -help
+
+git branch newbranch
+git branch
+git checkout newbranch
+git checkout -b emergency-fix
+git checkout master
+git merge emergency-fix
+git branch -d emergency-fix
+
+https://github.com/
+Now that you have made a GitHub account, sign in, and create a new Repo:
+Note: Remember to use the same e-mail address you used in the Git config.
+Then click "Create repository".
+
+
+git remote add origin https://github.com/w3schools-test/hello-world.git
+git push
+
+git fetch origin
+git log origin/master
+git diff origin/master
+git merge origin/master
+
+git pull origin
+git commit -a -m "Updated index.html. Resized image"
+git pull
+git branch -a
+ote: branch -r is for remote branches only.
+git checkout html-skeleton
+git push origin update-readme
+
+
+
+
+
+
+
